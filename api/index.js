@@ -47,7 +47,7 @@ app.post("/api/upload", upload.single('photo'), (req, res) => {
 
 app.use("/api/uploads", express.static("uploads"));
 
-//middlewares
+//middleware
 app.use(cookieParser());
 app.use(express.json());
 
