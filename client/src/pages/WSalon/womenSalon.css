@@ -1,0 +1,230 @@
+.salonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.salonWrapper {
+  max-width: 800px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.salonTitle {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(138, 135, 131);
+}
+
+.about {
+  margin-top: 20px;
+  position: relative;
+  padding: 40px 20px;
+  margin-top: 5%;
+  height: auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(196, 191, 182, 0.311);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.412);
+
+  z-index: 1;
+}
+
+.salonImg {
+  width: 200px;
+  height: 270px;
+  vertical-align: top;
+  float: left;
+  margin-right: 20px;
+}
+
+.aboutDetails {
+  flex: 1;
+  text-align: center;
+}
+
+.aboutDetails > h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.aboutDetails > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.aboutDetails > p {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(144, 131, 107);
+}
+
+
+
+/**/
+
+.programSalon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 150px;
+  width: 100%;
+  gap: 300px;
+  flex: 1;
+}
+
+.proram_program {
+  display: flex;
+  flex-direction: column;
+}
+
+.programSalonTexts {
+  width: 50%;
+  height: 170px;
+  border: 7px solid rgb(255, 255, 255);
+  border-style: double;
+  background-color: rgba(196, 191, 182, 0.311);
+  padding: 40px;
+  position: relative;
+}
+
+.programTitle {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(138, 135, 131);
+  font-family: "Pacifico", cursive;
+  margin-top: -7px;
+}
+
+.program {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  gap: 9px;
+}
+
+.program p {
+  text-align: right;
+}
+
+.program span {
+  text-align: center;
+  min-width: 60px;
+  display: inline-block;
+}
+
+.program span.short {
+  text-align: center;
+}
+
+.titleService {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(138, 135, 131);
+  font-family: "Pacifico", cursive;
+  margin-bottom: 8px;
+}
+
+.salonDetailsPrice {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serviceBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.serviceBox p {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.serviceBox span {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+
+button {
+  background-color: #564c4d;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact {
+  position: absolute;
+  bottom: -570px;
+  right: 80px;
+  background-color: rgb(222, 222, 222);
+  width: auto;
+  height: auto;
+  padding: 15px 60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.412);
+}
+
+.contact h1 {
+  font-size: 24px;
+  margin-bottom: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin: 1px 0;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.contact_a {
+  flex-direction: row;
+  text-align: center;
+}
+
+.contact a {
+  margin: 0 10px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.facebook {
+  color: #3b5998;
+}
+.insta {
+  color: #c13584;
+}

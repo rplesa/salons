@@ -1,0 +1,73 @@
+.mail {
+  width: 100%;
+  margin: 0;
+  background-color: rgba(92, 91, 91, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  margin: 60px 0 0 0;
+}
+
+.mail > span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #44443ef5;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.497);
+}
+
+.mail > h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.695);
+}
+
+.mail > p{
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(42, 40, 40);
+  text-shadow: 1px 1px 2px rgba(77, 74, 74, 0.588);
+
+}
+
+.mailInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.mailPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mailPanel > span {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(253, 253, 253);
+  text-shadow: 1px 1px 2px rgba(27, 27, 25, 0.497);
+}
+
+.mailPanel button {
+  margin-right: 38px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #44443ef5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgba(94, 95, 85, 0.504);
+  color: white;
+}
