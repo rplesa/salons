@@ -69,7 +69,8 @@ app.use((err, req, res, next) => {
 
 app.use(compression())
 
-app.listen(8080, () => {
+const port=process.env.PORT || 8000
+app.listen(port, () => {
   connect();
   console.log("Connected with backend");
 });
