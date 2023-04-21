@@ -69,7 +69,7 @@ app.use((err, req, res, next) => {
 
 app.use(compression())
 
-const port=process.env.PORT || 8000
+const port=process.env.PORT || 8080
 app.listen(port, () => {
   connect();
   console.log("Connected with backend");
